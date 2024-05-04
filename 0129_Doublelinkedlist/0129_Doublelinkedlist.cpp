@@ -197,4 +197,12 @@ int main()
 			cout << "5. Search for a record in the list" << endl;
 			cout << "6.Exit" << endl;
 			cout << "\nEnter your choice (1-6): ";
-		
+			char ch;
+			cin >> ch;
+
+			switch (ch)
+			{
+			case '1':
+				addNode();
+				break;
+	

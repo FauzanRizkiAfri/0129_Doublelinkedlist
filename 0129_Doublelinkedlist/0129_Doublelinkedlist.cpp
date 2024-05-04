@@ -205,4 +205,28 @@ int main()
 			case '1':
 				addNode();
 				break;
-	
+			case '2':
+				deleteNode();
+				break;
+			case '3':
+				traverse();
+				break;
+			case '4':
+				revtraverse();
+				break;
+			case '5':
+				searchData();
+				break;
+			case '6':
+				return 0;
+			default:
+				cout << "\nInvalid option" << endl;
+				break;
+			}
+		}
+		catch (exception& e)
+		{
+			cout << "Chek for the values entered." << endl;
+		}
+	}
+}
